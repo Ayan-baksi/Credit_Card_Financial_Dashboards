@@ -1,28 +1,31 @@
 # 📊 Credit Card Financial Analysis 
 
-This project demonstrates end-to-end data analysis and visualization using Excel, PostgreSQL, and Power BI, built on real-world datasets sourced from Kaggle. The goal was to analyze customer demographics and transaction behaviors to uncover insights that can drive business decisions in the financial sector.
+This project demonstrates **end-to-end data analysis and visualization** using **Excel, PostgreSQL, and Power BI**, built on real-world datasets sourced from Kaggle. The goal was to analyze customer demographics and transaction behaviors to uncover insights that can drive business decisions in the financial sector.
+
 ---
 
 ## 🚀 Project Workflow
 ### ⚪ Data Acquisition
 - Downloaded raw CSV datasets from Kaggle (`credit_card_1.csv`, `customer_1.csv`).
 ### ⚪ Data Cleaning (Excel)
-- Cleaned messy and inconsistent data in Excel (handled nulls, standardized formats, removed duplicates, corrected data types).
+- Cleaned messy and inconsistent data in **Excel** (handled nulls, standardized formats, removed duplicates, corrected data types).
 - Ensured the cleaned datasets were ready for structured database import.
 ### ⚪ Database Design & SQL Integration
-- Created a PostgreSQL database: creditcard_db.
+- Created a PostgreSQL database: `creditcard_db`.
 - Designed normalized tables:
-- cc_detail → credit card transaction details
-- cust_detail → customer demographic details
-- Imported cleaned CSV data into PostgreSQL using COPY commands.
-- Updated database with additional weekly data (Week 53).
+- `cc_details` → credit card transaction details
+- `cust_details` → customer demographic details
+- Imported cleaned CSV data into PostgreSQL using `COPY` commands.
+- **Updated** database with **additional weekly data (Week 53)**.
 ### ⚪ SQL Queries & Data Validation
 - Wrote SQL queries to validate imports and ensure data integrity.
-- Adjusted session settings (e.g., datestyle) for consistency.
+- Adjusted session settings (e.g., `datestyle`) for consistency.
 ### ⚪ Power BI Dashboards
 - Connected PostgreSQL database to Power BI.
 - Built **two interactive dashboards:**
-      **i) Credit Card Transaction Report →** revenue, transaction counts, expenditure types, card categories, and quarterly trends.
+  
+   **i) Credit Card Transaction Report →** revenue, transaction counts, expenditure types, card categories, and quarterly trends.
+  
      **ii) Credit Card Customer Report →** customer segmentation by age, gender, income, education, marital status, dependents, and geography.
 - Updated dashboards seamlessly when new data was added.
 
@@ -30,15 +33,15 @@ This project demonstrates end-to-end data analysis and visualization using Excel
 
 ## 📈 Dashboards Overview
 ### 🔹 Credit Card Transaction Report
-- Revenue & transaction breakdown by card category (Blue, Silver, Gold, Platinum).
-- Revenue by expenditure type (Food, Shopping, Travel, Entertainment, Health).
+- Revenue & transaction breakdown by **card category** (Blue, Silver, Gold, Platinum).
+- Revenue by **expenditure type** (Food, Shopping, Travel, Entertainment, Health).
 - Quarterly revenue & transaction count trends.
-- Insights by customer jobs and education level.
+- Insights by **customer jobs** and **education level**.
 ### 🔹 Credit Card Customer Report
-- Revenue by age group, gender, income group, marital status, dependents, and education.
-- Top 5 states by revenue contribution.
-- Customer segmentation by occupation (Businessman, White-collar, Self-employed, etc.).
-- Key KPIs: Total Revenue, Total Interest, Customer Satisfaction Score.
+- Revenue by **age group, gender, income group, marital status, dependents**, and **education**.
+- **Top 5 states** by revenue contribution.
+- Customer segmentation by **occupation** (Businessman, White-collar, Self-employed, etc.).
+- **Key KPIs: Total Revenue, Total Interest, Customer Satisfaction Score.**
 
 ---
 
@@ -72,7 +75,9 @@ This project demonstrates end-to-end data analysis and visualization using Excel
 ![image alt](https://github.com/Ayan-baksi/Credit_Card_Financial_Dashboards/blob/main/Credit%20Card%20Customer%20Report.png?raw=true)
 ![image alt](https://github.com/Ayan-baksi/Credit_Card_Financial_Dashboards/blob/main/Credit%20Card%20Transaction%20Report.png?raw=true)
 
-🔮 Next Steps
+---
+
+## 🔮 Next Steps
 - Enhance dashboards with predictive insights (e.g., churn risk, revenue forecasting).
 - Automate data refresh using scheduled PostgreSQL → Power BI pipelines.
 - Explore advanced DAX for deeper KPI calculations.
@@ -82,6 +87,8 @@ This project demonstrates end-to-end data analysis and visualization using Excel
 ## 👤 Author
 Ayan Baksi
 - 💼 Aspiring Data Analyst  Excel  SQL  Power BI  Python (Pandas, NumPy, Seaborn)
-- 🌐 LinkedIn Profile
+- 🌐 LinkedIn Profile: https://www.linkedin.com/in/ayan-baksi/
 - 📧 Contact: ayanbaksi11@gmail.com
+  
 ---
+
