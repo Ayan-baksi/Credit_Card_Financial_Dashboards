@@ -49,7 +49,7 @@ This project demonstrates **end-to-end data analysis and visualization** using *
 - **Data Cleaning:** Excel
 - **Database:** PostgreSQL
 - **Visualization:** Power BI
-- **Languages/Tools:** SQL, DAX (basic), Excel functions
+- **Languages/Tools:** SQL, DAX, Excel functions
 - **Data Source:** Kaggle
 
 ---
